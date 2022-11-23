@@ -13,6 +13,7 @@ const { createReadStream } = require("fs");
 const path = require("path");
 const { pipeline } = require("stream");
 const photos = path.join(__dirname, "photos");
+
 const allRoutes = {
     // GET: localhost:3000/form
     "/form:get": (request, response) => {

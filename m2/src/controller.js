@@ -15,21 +15,12 @@ const { getUsers, getDetails, getUserDetails, addPhoto } = require("./database")
 const { parse } = require("url");
 const formidable = require("formidable");
 const { pipeline } = require("stream");
-
 const views = path.join(__dirname, "views");
 const photos = path.join(__dirname, "photos");
 
-
 const controller = {
     getFormPage: (request, response) => {
-        return response.end(`
-    <h1>Hello world</h1> <style> h1 {color:red;}</style>
-    <form action="/form" method="post">
-    <input type="text" name="username"><br>
-    <input type="text" name="password"><br>
-    <input type="submit" value="Upload">
-    </form>
-    `);
+        return response.end(str);
     },
     sendFormData: (request, response) => {
         var body = "";
