@@ -1,12 +1,18 @@
+// /*
+//  * Project: Milestone 2
+//  * File Name: controller.js
+//  *
+//  * Created Date: November 15
+//  * Author: Andrew Hull
+//  *
+//  */
 const { parse } = require("url");
 const { DEFAULT_HEADER } = require("./util/util.js");
 const controller = require("./controller");
 const { createReadStream } = require("fs");
 const path = require("path");
 const { pipeline } = require("stream");
-
 const photos = path.join(__dirname, "photos");
-
 const allRoutes = {
     // GET: localhost:3000/form
     "/form:get": (request, response) => {

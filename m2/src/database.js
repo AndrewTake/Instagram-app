@@ -1,8 +1,15 @@
+// /*
+//  * Project: Milestone 2
+//  * File Name: controller.js
+//  *
+//  * Created Date: November 15
+//  * Author: Andrew Hull
+//  *
+//  */
 const { readFile, writeFile } = require("fs").promises;
 const path = require("path");
-
-let database = {}
-let dbPath = path.join(__dirname, "..", "database", "data.json");
+const database = {}
+const dbPath = path.join(__dirname, "..", "database", "data.json");
 
 const load = () => {
     return readFile(dbPath).then(data => {
