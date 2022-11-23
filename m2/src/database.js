@@ -8,8 +8,8 @@
 //  */
 const { readFile, writeFile } = require("fs").promises;
 const path = require("path");
-const database = {}
-const dbPath = path.join(__dirname, "..", "database", "data.json");
+let database = {}
+let dbPath = path.join(__dirname, "..", "database", "data.json");
 
 const load = () => {
     return readFile(dbPath).then(data => {

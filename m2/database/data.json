@@ -1,7 +1,7 @@
 [
   {
     "id": "90bf10a3-c9fb-406a-a35a-3e4a8db0fbf8",
-    "description": "welcome to my profile!",
+    "description": "My name is John :)",
     "username": "john123",
     "stats": {
       "posts": 3,
@@ -13,12 +13,14 @@
       "pic1.png",
       "pic2.png",
       "5762f99604c03e4b3110ac200.png",
-      "5762f99604c03e4b3110ac202.png"
+      "5762f99604c03e4b3110ac202.png",
+      "9562eac8aa1db5b81f6985100.png",
+      "9562eac8aa1db5b81f6985102.png"
     ]
   },
   {
     "id": "cb506c7d-1c2f-4ce8-a56f-d45f16bf34cf",
-    "description": "Hi there!",
+    "description": "Hi there :o",
     "username": "sandra123",
     "stats": {
       "posts": 3,
@@ -30,7 +32,9 @@
       "pic1.png",
       "pic2.png",
       "5762f99604c03e4b3110ac201.png",
-      "5762f99604c03e4b3110ac203.png"
+      "5762f99604c03e4b3110ac203.png",
+      "9562eac8aa1db5b81f6985101.png",
+      "9562eac8aa1db5b81f6985103.png"
     ]
   }
 ]
